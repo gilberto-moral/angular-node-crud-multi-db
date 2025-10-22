@@ -1,2 +1,23 @@
-# Exclui o arquivo Dados.txt em qualquer pasta
+# IGNORAR TODA A PASTA _Servicos e seu conteúdo
+_Servicos/
+
+# IGNORAR ARQUIVOS DA SUA MÁQUINA
 Dados.txt
+*.log
+*.sqlite
+
+# DEPENDÊNCIAS DO NODE.JS
+/node_modules
+
+# ARQUIVOS DE BUILD/COMPILAÇÃO DO ANGULAR
+/dist
+/coverage
+.angular/
+
+# DADOS DE CONFIGURAÇÃO DE AMBIENTE LOCAL
+# Se você tiver um arquivo com chaves secretas, adicione-o aqui.
+# Exemplo: /backend/db-config-local.js 
+
+# OUTROS ARQUIVOS DE IDE/SISTEMA
+.DS_Store
+Thumbs.db
